@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Конвенция
+    url: https://github.com/atls/convention
+    about: О процессах и не только
+  - name: Сайт
+    url: https://atls.team
+    about: Сайт команды
