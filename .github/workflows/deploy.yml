@@ -19,7 +19,7 @@ jobs:
           node-version: 19
 
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --inline-builds
 
       - name: Build Docusaurus site
         run: yarn build
