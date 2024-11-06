@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklast_strategy_docs=self.webpackChunklast_strategy_docs||[]).push([[583],{6866:(t,s,e)=>{e.r(s),e.d(s,{default:()=>d});e(6540);var r=e(6347),a=e(4848);function d(){return(0,a.jsx)(r.rd,{to:"/gdd/introduction"})}}}]);

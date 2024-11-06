@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklast_strategy_docs=self.webpackChunklast_strategy_docs||[]).push([[742],{7093:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
