@@ -1870,26 +1870,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-client-redirects@npm:3.6.0":
-  version: 3.6.0
-  resolution: "@docusaurus/plugin-client-redirects@npm:3.6.0"
-  dependencies:
-    "@docusaurus/core": "npm:3.6.0"
-    "@docusaurus/logger": "npm:3.6.0"
-    "@docusaurus/utils": "npm:3.6.0"
-    "@docusaurus/utils-common": "npm:3.6.0"
-    "@docusaurus/utils-validation": "npm:3.6.0"
-    eta: "npm:^2.2.0"
-    fs-extra: "npm:^11.1.1"
-    lodash: "npm:^4.17.21"
-    tslib: "npm:^2.6.0"
-  peerDependencies:
-    react: ^18.0.0
-    react-dom: ^18.0.0
-  checksum: 10/307e2990b4f4c65f7d0e0359ae41342361584eb8bdd589478bbff7e4e9aeb11488f76ac9cd9bddec23bab2f39d3da27b0570328af443939655cb64e844f9dabd
-  languageName: node
-  linkType: hard
-
 "@docusaurus/plugin-content-blog@npm:3.6.0":
   version: 3.6.0
   resolution: "@docusaurus/plugin-content-blog@npm:3.6.0"
@@ -7140,7 +7120,6 @@ __metadata:
   dependencies:
     "@docusaurus/core": "npm:3.6.0"
     "@docusaurus/module-type-aliases": "npm:3.6.0"
-    "@docusaurus/plugin-client-redirects": "npm:3.6.0"
     "@docusaurus/preset-classic": "npm:3.6.0"
     "@docusaurus/tsconfig": "npm:3.6.0"
     "@docusaurus/types": "npm:3.6.0"
