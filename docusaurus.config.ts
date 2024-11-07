@@ -1,6 +1,7 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import type * as Preset          from '@docusaurus/preset-classic'
+import type { Config }           from '@docusaurus/types'
+
+import { themes as prismThemes } from 'prism-react-renderer'
 
 const config: Config = {
   title: 'Last Strategy',
@@ -8,7 +9,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://phoenix-games-revolution.github.io',
-  baseUrl: '/last-strategy-docs/',
+  baseUrl: 'last-strategy-docs',
 
   organizationName: 'phoenix-games-revolution',
   projectName: 'last-strategy-docs',
@@ -85,6 +86,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-};
+}
 
-export default config;
+export default config
