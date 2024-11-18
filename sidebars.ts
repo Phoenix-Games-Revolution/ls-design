@@ -4,12 +4,23 @@ const sidebars: SidebarsConfig = {
   docsSidebar: [
     {
       type: 'category',
-      label: 'Game Design Document (GDD)',
-      items: ['gdd/introduction', 'gdd/objectives'],
+      label: 'Game Design Document',
+      items: [
+        {
+          type: 'category',
+          label: 'Введение',
+          items: ['gdd/introduction/introduction', 'gdd/introduction/objectives'],
+        },
+        {
+          type: 'category',
+          label: 'Обзор',
+          items: ['gdd/overview/concept'],
+        }
+      ],
     },
     {
       type: 'category',
-      label: 'Technical Design Document (TDD)',
+      label: 'Technical Design Document',
       items: ['tdd/index'],
     },
     {
