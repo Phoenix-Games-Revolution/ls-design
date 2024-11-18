@@ -74,7 +74,7 @@ const config: Config = {
             },
             {
               label: 'Цели',
-              to: '/gdd/objectives',
+              to: '/gdd/introduction/objectives',
             },
           ],
         },
