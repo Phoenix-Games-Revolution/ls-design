@@ -1,0 +1,29 @@
+name: Docs
+description: Создание и внесение изменений в документацию
+labels: ['docs']
+assignees:
+  - gochicus
+body:
+  - type: input
+    id: motivation
+    attributes:
+      label: О чём будем писать?
+      placeholder: О чём пишем или что меняем в документации
+    validations:
+      required: false
+
+  - type: textarea
+    id: poc
+    attributes:
+      label: Составьте план документа или описания
+      placeholder: Здесь должен находится примерный план по созданию документации
+    validations:
+      required: true
+
+  - type: input
+    id: materials
+    attributes:
+      label: Материалы
+      placeholder: Ссылка на фигму, любой другой материал для старта
+    validations:
+      required: true
