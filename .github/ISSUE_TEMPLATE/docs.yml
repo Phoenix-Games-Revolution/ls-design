@@ -28,3 +28,4 @@ body:
       placeholder: Ссылка на фигму, дискуссию, комменты, внешние источники
     validations:
       required: true
+
