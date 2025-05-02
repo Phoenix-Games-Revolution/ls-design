@@ -1,0 +1,34 @@
+name: Прогрессия юнита Неолита
+description: Задача на описание прогрессии юнита эпохи Неолита
+title: '[Neolithic Unit Progression] Название юнита'
+type: Units
+projects: ['Phoenix-Games-Revolution/7']
+body:
+  - type: dropdown
+    id: unit-name
+    attributes:
+      label: Название юнита
+      description: Выбери юнита для описания его прогрессии
+      options:
+        - Warrior
+        - Farmer
+        - Herder
+        - Priest
+        - Builder
+        - Archer
+        - Slinger
+        - Scout
+        - Craftsman
+    validations:
+      required: true
+  - type: dropdown
+    id: progression-type
+    attributes:
+      label: Тип прогрессии
+      description: Формат древа развития юнита
+      options:
+        - Линейное (без ветвлений)
+        - С ветвлениями (branching)
+        - С выбором специализации (specialization)
+    validations:
+      required: true
