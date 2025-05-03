@@ -1,0 +1,166 @@
+{
+  "dark": {
+    "paleolithic": {
+      "Hunter": {
+        "specializations": [
+          "Beaters",
+          "Spearthrowers",
+          "Trackers"
+        ]
+      },
+      "Gatherer": {
+        "specializations": [
+          "Plant Gatherers",
+          "Root Digging Specialists",
+          "Insect Gatherers"
+        ]
+      },
+      "Fisher": {
+        "specializations": [
+          "Net Fishers",
+          "Harpooners",
+          "Shellfish Gatherers"
+        ]
+      },
+      "Firekeeper": {
+        "specializations": [
+          "Firekeepers",
+          "Charcoal Makers"
+        ]
+      },
+      "Shaman": {
+        "specializations": [
+          "Healers",
+          "Seers and Spirit Guides"
+        ]
+      },
+      "Scout": {
+        "specializations": [
+          "Explorers",
+          "Lookouts"
+        ]
+      },
+      "Slinger": {
+        "specializations": [
+          "Stone Slingers"
+        ]
+      }
+    },
+    "mesolithic": {
+      "Hunter": {
+        "specializations": [
+          "Trappers",
+          "Bow Hunters",
+          "Ambushers"
+        ]
+      },
+      "Advanced Gatherer": {
+        "specializations": [
+          "Seed Collectors",
+          "Fruit Harvesters",
+          "Mushroom Gatherers"
+        ]
+      },
+      "Fisher": {
+        "specializations": [
+          "Trap Fishers",
+          "Boat Fishers",
+          "Riverbank Fishers"
+        ]
+      },
+      "Firekeeper": {
+        "specializations": [
+          "Firekeepers",
+          "Resin Makers"
+        ]
+      },
+      "Shaman": {
+        "specializations": [
+          "Herbalists",
+          "Totem Carvers",
+          "Ritual Leaders"
+        ]
+      },
+      "Scout": {
+        "specializations": [
+          "Pathfinders",
+          "Territorial Scouts"
+        ]
+      },
+      "Slinger": {
+        "specializations": [
+          "Stone Slingers",
+          "Bone Dart Throwers"
+        ]
+      },
+      "Pack Animal Handler": {
+        "specializations": [
+          "Dog Handlers",
+          "Animal Trainers"
+        ]
+      }
+    },
+    "neolithic": {
+      "Warrior": {
+        "specializations": [
+          "Club Warriors",
+          "Axemen",
+          "Shield Bearers"
+        ]
+      },
+      "Farmer": {
+        "specializations": [
+          "Grain Farmers",
+          "Vegetable Gardeners",
+          "Irrigation Specialists"
+        ]
+      },
+      "Herder": {
+        "specializations": [
+          "Shepherds",
+          "Cattle Herders",
+          "Animal Breeders"
+        ]
+      },
+      "Priest": {
+        "specializations": [
+          "Sacrificial Priests",
+          "Astrologers",
+          "Chanting Specialists"
+        ]
+      },
+      "Builder": {
+        "specializations": [
+          "Hut Builders",
+          "Palisade Constructors",
+          "Stoneworkers"
+        ]
+      },
+      "Archer": {
+        "specializations": [
+          "Bow Archers",
+          "Crossbow Specialists"
+        ]
+      },
+      "Slinger": {
+        "specializations": [
+          "Stone Slingers",
+          "Clay Pellet Slingers"
+        ]
+      },
+      "Scout": {
+        "specializations": [
+          "Land Surveyors",
+          "Boundary Watchers"
+        ]
+      },
+      "Craftsman": {
+        "specializations": [
+          "Potters",
+          "Basket Weavers",
+          "Toolmakers"
+        ]
+      }
+    }
+  }
+}
