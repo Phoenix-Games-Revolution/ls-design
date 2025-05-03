@@ -12,7 +12,10 @@ body:
       options:
         - Bronze Swordsman
         - Archer
+        - Slinger
         - Chariot Archer
+        - Chariot
+        - Cavalry
         - Spearman
         - Builder
         - Merchant
