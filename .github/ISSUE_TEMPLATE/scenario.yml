@@ -1,0 +1,42 @@
+name: Сценарий эпохи
+description: Задача на подготовку нарратива/сценария конкретного этапа эпохи
+title: '[Scenario] Название сценария или события'
+type: Scenario
+projects: ['Phoenix-Games-Revolution/7']
+body:
+  - type: dropdown
+    id: epoch-stage
+    attributes:
+      label: Этап эпохи
+      description: Выбери этап, к которому относится сценарий
+      options:
+        - Paleolithic
+        - Mesolithic
+        - Neolithic
+        - Chalcolithic
+        - Bronze Age
+        - Early Iron Age
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scenario-type
+    attributes:
+      label: Тип сценария
+      description: Укажи тип сценария/нарратива
+      options:
+        - Глобальное событие (global event)
+        - Локальное событие (local event)
+        - Нарратив эпохи (epoch narrative)
+        - Нарратив персонажа (character narrative)
+    validations:
+      required: true
+
+  - type: textarea
+    id: short-description
+    attributes:
+      label: Краткое описание сценария
+      description: Очень коротко, без детализации, суть события или сценария
+      placeholder: 'Кратко, одним предложением описать, что происходит в сценарии.'
+    validations:
+      required: true
