@@ -1,0 +1,34 @@
+name: Прогрессия юнита Бронзового века
+description: Задача на описание прогрессии юнита эпохи Бронзового века
+title: '[Bronze Age Unit Progression] Название юнита'
+type: Units
+projects: ['Phoenix-Games-Revolution/7']
+body:
+  - type: dropdown
+    id: unit-name
+    attributes:
+      label: Название юнита
+      description: Выбери юнита для описания его прогрессии
+      options:
+        - Bronze Swordsman
+        - Archer
+        - Chariot Archer
+        - Spearman
+        - Builder
+        - Merchant
+        - Priest
+        - Scout
+        - Siege Engineer
+    validations:
+      required: true
+  - type: dropdown
+    id: progression-type
+    attributes:
+      label: Тип прогрессии
+      description: Формат древа развития юнита
+      options:
+        - Линейное (без ветвлений)
+        - С ветвлениями (branching)
+        - С выбором специализации (specialization)
+    validations:
+      required: true

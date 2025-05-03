@@ -5,16 +5,20 @@ type: Units
 projects: ['Phoenix-Games-Revolution/7']
 body:
   - type: dropdown
-    id: unit_name
+    id: unit-name
     attributes:
       label: Название юнита
       description: Выбери юнита
       options:
         - Iron Swordsman
         - Heavy Spearman
-        - Crossbowman
+        - Early Crossbowman
+        - Archer
+        - Slinger
+        - Cavalry
+        - War Elephant
         - War Chariot
-        - Siege Ram Operator
+        - Siege Engineer
         - High Priest
         - Engineer
         - Scout
