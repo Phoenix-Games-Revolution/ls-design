@@ -1,165 +1,210 @@
 {
   "dark": {
     "paleolithic": {
-      "Hunter": {
-        "specializations": [
-          "Beaters",
-          "Spearthrowers",
-          "Trackers"
-        ]
-      },
-      "Gatherer": {
-        "specializations": [
-          "Plant Gatherers",
-          "Root Digging Specialists",
-          "Insect Gatherers"
-        ]
-      },
-      "Fisher": {
-        "specializations": [
-          "Net Fishers",
-          "Harpooners",
-          "Shellfish Gatherers"
-        ]
-      },
-      "Firekeeper": {
-        "specializations": [
-          "Firekeepers",
-          "Charcoal Makers"
-        ]
-      },
-      "Shaman": {
-        "specializations": [
-          "Healers",
-          "Seers and Spirit Guides"
-        ]
-      },
-      "Scout": {
-        "specializations": [
-          "Explorers",
-          "Lookouts"
-        ]
-      },
-      "Slinger": {
-        "specializations": [
-          "Stone Slingers"
-        ]
+      "units": {
+        "1": {
+          "name": "Hunter",
+          "specializations": {
+            "101": "Beaters",
+            "102": "Spearthrowers",
+            "103": "Trackers"
+          },
+          "skill-progression": "linear",
+          "skill-tree": "mixed"
+        },
+        "2": {
+          "name": "Gatherer",
+          "specializations": {
+            "104": "Plant Gatherers",
+            "105": "Root Digging Specialists",
+            "106": "Insect Gatherers"
+          },
+          "skill-progression": "branching",
+          "skill-tree": "passive"
+        },
+        "3": {
+          "name": "Fisher",
+          "specializations": {
+            "107": "Net Fishers",
+            "108": "Harpooners",
+            "109": "Shellfish Gatherers"
+          },
+          "skill-progression": "linear",
+          "skill-tree": "passive"
+        },
+        "4": {
+          "name": "Firekeeper",
+          "specializations": {
+            "110": "Firekeepers",
+            "111": "Charcoal Makers"
+          },
+          "skill-progression": "linear",
+          "skill-tree": "passive"
+        },
+        "5": {
+          "name": "Shaman",
+          "specializations": {
+            "112": "Healers",
+            "113": "Seers and Spirit Guides"
+          },
+          "skill-progression": "specialization",
+          "skill-tree": "mixed"
+        },
+        "6": {
+          "name": "Scout",
+          "specializations": {
+            "114": "Explorers",
+            "115": "Lookouts"
+          },
+          "skill-progression": "linear",
+          "skill-tree": "passive"
+        },
+        "7": {
+          "name": "Slinger",
+          "specializations": {
+            "116": "Stone Slingers"
+          },
+          "skill-progression": "linear",
+          "skill-tree": "active"
+        }
       }
     },
     "mesolithic": {
-      "Hunter": {
-        "specializations": [
-          "Trappers",
-          "Bow Hunters",
-          "Ambushers"
-        ]
-      },
-      "Advanced Gatherer": {
-        "specializations": [
-          "Seed Collectors",
-          "Fruit Harvesters",
-          "Mushroom Gatherers"
-        ]
-      },
-      "Fisher": {
-        "specializations": [
-          "Trap Fishers",
-          "Boat Fishers",
-          "Riverbank Fishers"
-        ]
-      },
-      "Firekeeper": {
-        "specializations": [
-          "Firekeepers",
-          "Resin Makers"
-        ]
-      },
-      "Shaman": {
-        "specializations": [
-          "Herbalists",
-          "Totem Carvers",
-          "Ritual Leaders"
-        ]
-      },
-      "Scout": {
-        "specializations": [
-          "Pathfinders",
-          "Territorial Scouts"
-        ]
-      },
-      "Slinger": {
-        "specializations": [
-          "Stone Slingers",
-          "Bone Dart Throwers"
-        ]
-      },
-      "Pack Animal Handler": {
-        "specializations": [
-          "Dog Handlers",
-          "Animal Trainers"
-        ]
+      "units": {
+        "8": {
+          "name": "Hunter",
+          "specializations": {
+            "117": "Trappers",
+            "118": "Bow Hunters",
+            "119": "Ambushers"
+          },
+          "skill-progression": "branching",
+          "skill-tree": "mixed"
+        },
+        "9": {
+          "name": "Advanced Gatherer",
+          "specializations": {
+            "120": "Seed Collectors",
+            "121": "Fruit Harvesters",
+            "122": "Mushroom Gatherers"
+          },
+          "skill-progression": "branching",
+          "skill-tree": "passive"
+        },
+        "10": {
+          "name": "Pack Animal Handler",
+          "specializations": {
+            "123": "Dog Handlers",
+            "124": "Animal Trainers"
+          },
+          "skill-progression": "specialization",
+          "skill-tree": "mixed"
+        }
       }
     },
     "neolithic": {
-      "Warrior": {
-        "specializations": [
-          "Club Warriors",
-          "Axemen",
-          "Shield Bearers"
-        ]
-      },
-      "Farmer": {
-        "specializations": [
-          "Grain Farmers",
-          "Vegetable Gardeners",
-          "Irrigation Specialists"
-        ]
-      },
-      "Herder": {
-        "specializations": [
-          "Shepherds",
-          "Cattle Herders",
-          "Animal Breeders"
-        ]
-      },
-      "Priest": {
-        "specializations": [
-          "Sacrificial Priests",
-          "Astrologers",
-          "Chanting Specialists"
-        ]
-      },
-      "Builder": {
-        "specializations": [
-          "Hut Builders",
-          "Palisade Constructors",
-          "Stoneworkers"
-        ]
-      },
-      "Archer": {
-        "specializations": [
-          "Bow Archers",
-          "Crossbow Specialists"
-        ]
-      },
-      "Slinger": {
-        "specializations": [
-          "Stone Slingers",
-          "Clay Pellet Slingers"
-        ]
-      },
-      "Scout": {
-        "specializations": [
-          "Land Surveyors",
-          "Boundary Watchers"
-        ]
-      },
-      "Craftsman": {
-        "specializations": [
-          "Potters",
-          "Basket Weavers",
-          "Toolmakers"
-        ]
+      "units": {
+        "11": {
+          "name": "Warrior",
+          "specializations": {
+            "125": "Club Warriors",
+            "126": "Axemen",
+            "127": "Shield Bearers"
+          },
+          "skill-progression": "branching",
+          "skill-tree": "active"
+        },
+        "12": {
+          "name": "Farmer",
+          "specializations": {
+            "128": "Grain Farmers",
+            "129": "Vegetable Gardeners",
+            "130": "Irrigation Specialists"
+          },
+          "skill-progression": "linear",
+          "skill-tree": "passive"
+        },
+        "13": {
+          "name": "Herder",
+          "specializations": {
+            "131": "Shepherds",
+            "132": "Cattle Herders",
+            "133": "Animal Breeders"
+          },
+          "skill-progression": "specialization",
+          "skill-tree": "mixed"
+        }
+      }
+    },
+    "chalcolithic": {
+      "units": {
+        "14": {
+          "name": "Spearman",
+          "specializations": {
+            "134": "Copper Spearmen",
+            "135": "Phalanx Fighters"
+          },
+          "skill-progression": "branching",
+          "skill-tree": "active"
+        },
+        "15": {
+          "name": "Smith",
+          "specializations": {
+            "136": "Copper Smiths",
+            "137": "Toolsmiths"
+          },
+          "skill-progression": "specialization",
+          "skill-tree": "mixed"
+        }
+      }
+    },
+    "bronze-age": {
+      "units": {
+        "16": {
+          "name": "Bronze Swordsman",
+          "specializations": {
+            "138": "Infantry Swordsmen",
+            "139": "Elite Blade Guards"
+          },
+          "skill-progression": "branching",
+          "skill-tree": "active"
+        },
+        "17": {
+          "name": "Chariot Archer",
+          "specializations": {
+            "140": "Light Chariot Archers",
+            "141": "Heavy Chariot Archers"
+          },
+          "skill-progression": "specialization",
+          "skill-tree": "mixed"
+        },
+        "18": {
+          "name": "Horseman",
+          "specializations": {
+            "142": "Cavalry Scouts",
+            "143": "Mounted Raiders"
+          },
+          "skill-progression": "branching",
+          "skill-tree": "active"
+        },
+        "19": {
+          "name": "Merchant",
+          "specializations": {
+            "144": "Long-distance Traders",
+            "145": "Local Market Sellers"
+          },
+          "skill-progression": "specialization",
+          "skill-tree": "passive"
+        },
+        "20": {
+          "name": "Siege Engineer",
+          "specializations": {
+            "146": "Siege Tower Builders",
+            "147": "Ram Operators"
+          },
+          "skill-progression": "linear",
+          "skill-tree": "active"
+        }
       }
     }
   }
