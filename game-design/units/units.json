@@ -1,211 +1,282 @@
 {
-  "dark": {
-    "paleolithic": {
-      "units": {
-        "1": {
-          "name": "Hunter",
-          "specializations": {
-            "101": "Beaters",
-            "102": "Spearthrowers",
-            "103": "Trackers"
-          },
-          "skill-progression": "linear",
-          "skill-tree": "mixed"
+  "units": {
+    "dark": {
+      "paleolithic": [
+        {
+          "id": 1,
+          "name": "Hunter"
         },
-        "2": {
-          "name": "Gatherer",
-          "specializations": {
-            "104": "Plant Gatherers",
-            "105": "Root Digging Specialists",
-            "106": "Insect Gatherers"
-          },
-          "skill-progression": "branching",
-          "skill-tree": "passive"
+        {
+          "id": 2,
+          "name": "Gatherer"
         },
-        "3": {
-          "name": "Fisher",
-          "specializations": {
-            "107": "Net Fishers",
-            "108": "Harpooners",
-            "109": "Shellfish Gatherers"
-          },
-          "skill-progression": "linear",
-          "skill-tree": "passive"
+        {
+          "id": 3,
+          "name": "Fisher"
         },
-        "4": {
-          "name": "Firekeeper",
-          "specializations": {
-            "110": "Firekeepers",
-            "111": "Charcoal Makers"
-          },
-          "skill-progression": "linear",
-          "skill-tree": "passive"
+        {
+          "id": 4,
+          "name": "Firekeeper"
         },
-        "5": {
-          "name": "Shaman",
-          "specializations": {
-            "112": "Healers",
-            "113": "Seers and Spirit Guides"
-          },
-          "skill-progression": "specialization",
-          "skill-tree": "mixed"
+        {
+          "id": 5,
+          "name": "Shaman"
         },
-        "6": {
-          "name": "Scout",
-          "specializations": {
-            "114": "Explorers",
-            "115": "Lookouts"
-          },
-          "skill-progression": "linear",
-          "skill-tree": "passive"
+        {
+          "id": 6,
+          "name": "Scout"
         },
-        "7": {
-          "name": "Slinger",
-          "specializations": {
-            "116": "Stone Slingers"
-          },
-          "skill-progression": "linear",
-          "skill-tree": "active"
+        {
+          "id": 7,
+          "name": "Slinger"
         }
-      }
-    },
-    "mesolithic": {
-      "units": {
-        "8": {
-          "name": "Hunter",
-          "specializations": {
-            "117": "Trappers",
-            "118": "Bow Hunters",
-            "119": "Ambushers"
-          },
-          "skill-progression": "branching",
-          "skill-tree": "mixed"
+      ],
+      "mesolithic": [
+        {
+          "id": 8,
+          "name": "Hunter"
         },
-        "9": {
-          "name": "Advanced Gatherer",
-          "specializations": {
-            "120": "Seed Collectors",
-            "121": "Fruit Harvesters",
-            "122": "Mushroom Gatherers"
-          },
-          "skill-progression": "branching",
-          "skill-tree": "passive"
+        {
+          "id": 9,
+          "name": "Advanced Gatherer"
         },
-        "10": {
-          "name": "Pack Animal Handler",
-          "specializations": {
-            "123": "Dog Handlers",
-            "124": "Animal Trainers"
-          },
-          "skill-progression": "specialization",
-          "skill-tree": "mixed"
+        {
+          "id": 10,
+          "name": "Fisher"
+        },
+        {
+          "id": 11,
+          "name": "Firekeeper"
+        },
+        {
+          "id": 12,
+          "name": "Shaman"
+        },
+        {
+          "id": 13,
+          "name": "Scout"
+        },
+        {
+          "id": 14,
+          "name": "Slinger"
+        },
+        {
+          "id": 15,
+          "name": "Pack Animal Handler"
+        },
+        {
+          "id": 54,
+          "name": "Animal Tamer"
+        },
+        {
+          "id": 55,
+          "name": "War Dog"
         }
-      }
-    },
-    "neolithic": {
-      "units": {
-        "11": {
-          "name": "Warrior",
-          "specializations": {
-            "125": "Club Warriors",
-            "126": "Axemen",
-            "127": "Shield Bearers"
-          },
-          "skill-progression": "branching",
-          "skill-tree": "active"
+      ],
+      "neolithic": [
+        {
+          "id": 16,
+          "name": "Warrior"
         },
-        "12": {
-          "name": "Farmer",
-          "specializations": {
-            "128": "Grain Farmers",
-            "129": "Vegetable Gardeners",
-            "130": "Irrigation Specialists"
-          },
-          "skill-progression": "linear",
-          "skill-tree": "passive"
+        {
+          "id": 17,
+          "name": "Farmer"
         },
-        "13": {
-          "name": "Herder",
-          "specializations": {
-            "131": "Shepherds",
-            "132": "Cattle Herders",
-            "133": "Animal Breeders"
-          },
-          "skill-progression": "specialization",
-          "skill-tree": "mixed"
+        {
+          "id": 18,
+          "name": "Herder"
+        },
+        {
+          "id": 19,
+          "name": "Priest"
+        },
+        {
+          "id": 20,
+          "name": "Builder"
+        },
+        {
+          "id": 21,
+          "name": "Archer"
+        },
+        {
+          "id": 22,
+          "name": "Slinger"
+        },
+        {
+          "id": 23,
+          "name": "Scout"
+        },
+        {
+          "id": 24,
+          "name": "Craftsman"
+        },
+        {
+          "id": 56,
+          "name": "Beast Handler"
+        },
+        {
+          "id": 57,
+          "name": "Hunting Hawk"
         }
-      }
-    },
-    "chalcolithic": {
-      "units": {
-        "14": {
-          "name": "Spearman",
-          "specializations": {
-            "134": "Copper Spearmen",
-            "135": "Phalanx Fighters"
-          },
-          "skill-progression": "branching",
-          "skill-tree": "active"
+      ],
+      "chalcolithic": [
+        {
+          "id": 25,
+          "name": "Spearman"
         },
-        "15": {
-          "name": "Smith",
-          "specializations": {
-            "136": "Copper Smiths",
-            "137": "Toolsmiths"
-          },
-          "skill-progression": "specialization",
-          "skill-tree": "mixed"
+        {
+          "id": 26,
+          "name": "Archer"
+        },
+        {
+          "id": 27,
+          "name": "Slinger"
+        },
+        {
+          "id": 28,
+          "name": "Miner"
+        },
+        {
+          "id": 29,
+          "name": "Smith"
+        },
+        {
+          "id": 30,
+          "name": "Priest"
+        },
+        {
+          "id": 31,
+          "name": "Scout"
+        },
+        {
+          "id": 32,
+          "name": "Wagoner"
+        },
+        {
+          "id": 33,
+          "name": "Hunter"
+        },
+        {
+          "id": 58,
+          "name": "Animal Trainer"
+        },
+        {
+          "id": 59,
+          "name": "Pack Animal Unit"
+        },
+        {
+          "id": 60,
+          "name": "Mounted Scout"
         }
-      }
-    },
-    "bronze-age": {
-      "units": {
-        "16": {
-          "name": "Bronze Swordsman",
-          "specializations": {
-            "138": "Infantry Swordsmen",
-            "139": "Elite Blade Guards"
-          },
-          "skill-progression": "branching",
-          "skill-tree": "active"
+      ],
+      "bronze-age": [
+        {
+          "id": 34,
+          "name": "Bronze Swordsman"
         },
-        "17": {
-          "name": "Chariot Archer",
-          "specializations": {
-            "140": "Light Chariot Archers",
-            "141": "Heavy Chariot Archers"
-          },
-          "skill-progression": "specialization",
-          "skill-tree": "mixed"
+        {
+          "id": 35,
+          "name": "Archer"
         },
-        "18": {
-          "name": "Horseman",
-          "specializations": {
-            "142": "Cavalry Scouts",
-            "143": "Mounted Raiders"
-          },
-          "skill-progression": "branching",
-          "skill-tree": "active"
+        {
+          "id": 36,
+          "name": "Chariot Archer"
         },
-        "19": {
-          "name": "Merchant",
-          "specializations": {
-            "144": "Long-distance Traders",
-            "145": "Local Market Sellers"
-          },
-          "skill-progression": "specialization",
-          "skill-tree": "passive"
+        {
+          "id": 37,
+          "name": "Spearman"
         },
-        "20": {
-          "name": "Siege Engineer",
-          "specializations": {
-            "146": "Siege Tower Builders",
-            "147": "Ram Operators"
-          },
-          "skill-progression": "linear",
-          "skill-tree": "active"
+        {
+          "id": 38,
+          "name": "Builder"
+        },
+        {
+          "id": 39,
+          "name": "Merchant"
+        },
+        {
+          "id": 40,
+          "name": "Priest"
+        },
+        {
+          "id": 41,
+          "name": "Scout"
+        },
+        {
+          "id": 42,
+          "name": "Siege Engineer"
+        },
+        {
+          "id": 43,
+          "name": "Horseman"
+        },
+        {
+          "id": 61,
+          "name": "Beastmaster"
+        },
+        {
+          "id": 62,
+          "name": "War Dog"
+        },
+        {
+          "id": 63,
+          "name": "Mounted Raider"
         }
-      }
+      ],
+      "early-iron-age": [
+        {
+          "id": 44,
+          "name": "Iron Swordsman"
+        },
+        {
+          "id": 45,
+          "name": "Heavy Spearman"
+        },
+        {
+          "id": 46,
+          "name": "Crossbowman"
+        },
+        {
+          "id": 47,
+          "name": "War Chariot"
+        },
+        {
+          "id": 48,
+          "name": "Siege Ram Operator"
+        },
+        {
+          "id": 49,
+          "name": "High Priest"
+        },
+        {
+          "id": 50,
+          "name": "Engineer"
+        },
+        {
+          "id": 51,
+          "name": "Scout"
+        },
+        {
+          "id": 52,
+          "name": "Trader"
+        },
+        {
+          "id": 53,
+          "name": "War Elephant"
+        },
+        {
+          "id": 64,
+          "name": "War Beast Commander"
+        },
+        {
+          "id": 65,
+          "name": "War Elephant"
+        },
+        {
+          "id": 66,
+          "name": "Falconer"
+        }
+      ]
     }
   }
 }
