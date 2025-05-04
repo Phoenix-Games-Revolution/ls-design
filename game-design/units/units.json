@@ -234,7 +234,7 @@
         },
         {
           "id": 46,
-          "name": "Crossbowman"
+          "name": "Early Crossbowman"
         },
         {
           "id": 47,
@@ -265,15 +265,23 @@
           "name": "War Elephant"
         },
         {
+          "id": 54,
+          "name": "Archer"
+        },
+        {
+          "id": 55,
+          "name": "Slinger"
+        },
+        {
+          "id": 56,
+          "name": "Horseman"
+        },
+        {
           "id": 64,
           "name": "War Beast Commander"
         },
         {
           "id": 65,
-          "name": "War Elephant"
-        },
-        {
-          "id": 66,
           "name": "Falconer"
         }
       ]
