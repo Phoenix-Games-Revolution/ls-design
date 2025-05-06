@@ -1,0 +1,49 @@
+name: Персонаж тёмной эпохи
+description: Задача на подготовку описания протагониста или антагониста тёмной эпохи в формате markdown-файла
+title: '[Character] Имя персонажа'
+type: Characters
+projects: ['Phoenix-Games-Revolution/7']
+body:
+  - type: input
+    id: character-placeholder-name
+    attributes:
+      label: Рабочее имя персонажа
+      description: Временное имя до финализации сценаристом
+    validations:
+      required: true
+
+  - type: dropdown
+    id: narrative-role
+    attributes:
+      label: Нарративная роль
+      description: Протагонист или антагонист
+      options:
+        - Протагонист
+        - Антагонист
+    validations:
+      required: true
+
+  - type: textarea
+    id: assignment
+    attributes:
+      label: Задание
+      description: Что требуется от сценариста
+      value: |
+        Подготовить описание персонажа (антагониста или протагониста) для тёмной эпохи. В результате должен быть добавлен markdown-файл в папку `game-design/characters/dark-age/`, содержащий:
+
+        - Имя персонажа
+        - Нарративную роль и контекст (к кому или чему он относится)
+        - Биографию с мотивацией и действиями
+        - Черты характера (ценности, страхи, слабости)
+        - Уровень влияния на сеттинг (и возможные последствия от его действий)
+        - Потенциальные сюжетные ветви с его участием
+
+        Файл должен быть в формате markdown. Структура свободная, главное — ясность и читабельность. Стиль: живой, художественный, но без фанфика.
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Контекст и референсы
+      description: Что стоит изучить перед написанием
+    validations:
+      required: false
