@@ -4,6 +4,20 @@ title: '[Character] Имя персонажа'
 type: Characters
 projects: ['Phoenix-Games-Revolution/7']
 body:
+  - type: dropdown
+    id: epoch-stage
+    attributes:
+      label: Этап эпохи
+      description: Выбери этап, к которому относится сценарий
+      options:
+        - Paleolithic
+        - Mesolithic
+        - Neolithic
+        - Chalcolithic
+        - Bronze Age
+        - Early Iron Age
+    validations:
+      required: true
   - type: input
     id: character-placeholder-name
     attributes:
