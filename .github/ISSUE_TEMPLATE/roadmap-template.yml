@@ -1,0 +1,28 @@
+name: Шаблон для roadmap
+description: Шаблоны для задач по описанию Roadmap
+title: '[Roadmap] Планирование'
+type: Roadmap
+projects: ['Phoenix-Games-Revolution/7']
+body:
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Planning
+      description: Выбери тип плана, который нужно описать
+      options:
+        - Architecture
+        - Development Stages
+        - Management
+        - Marketing
+        - Business Model
+        - Content
+    validations:
+      required: true
+
+  - type: textarea
+    id: about
+    attributes:
+      label: What is this task about
+      description: Что должно быть описано
+      value: |
+        Опишите сферу планирования и результат, ожидаемый в ПР

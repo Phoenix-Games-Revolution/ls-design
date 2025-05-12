@@ -1,0 +1,32 @@
+name: Прогрессия юнита Палеолита
+description: Задача на описание прогрессии юнита эпохи Палеолита
+title: '[Paleolithic Unit Progression] Название юнита'
+type: Units
+projects: ['Phoenix-Games-Revolution/7']
+body:
+  - type: dropdown
+    id: unit-name
+    attributes:
+      label: Название юнита
+      description: Выбери юнита для описания его прогрессии
+      options:
+        - Hunter
+        - Gatherer
+        - Fisher
+        - Firekeeper
+        - Shaman
+        - Scout
+        - Slinger
+    validations:
+      required: true
+  - type: dropdown
+    id: progression-type
+    attributes:
+      label: Тип прогрессии
+      description: Формат древа развития юнита
+      options:
+        - Линейное (без ветвлений)
+        - С ветвлениями (branching)
+        - С выбором специализации (specialization)
+    validations:
+      required: true
