@@ -5,7 +5,7 @@ type: Art
 projects: ['Phoenix-Games-Revolution/7']
 body:
   - type: dropdown
-    id: epoch-stage
+    id: illustration-type
     attributes:
       label: Тип иллюстрации
       description: Выбери тип иллюстрации
@@ -18,7 +18,7 @@ body:
       required: true
 
   - type: textarea
-    id: references
+    id: about-illustration
     attributes:
       label: Об иллюстрации
       description: Что планируется нарисовать, какие образы создать
@@ -26,7 +26,7 @@ body:
       required: false
 
   - type: textarea
-    id: references
+    id: context
     attributes:
       label: Контекст и референсы
       description: Отчего отталкиваться при создании иллюстрации
