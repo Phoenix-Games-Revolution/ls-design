@@ -1,0 +1,34 @@
+name: Создание графики
+description: Задача создание скетча, концепт или промо-арата и иных видов работ художника
+title: '[Art] Название иллюстрации'
+type: Art
+projects: ['Phoenix-Games-Revolution/7']
+body:
+  - type: dropdown
+    id: illustration-type
+    attributes:
+      label: Тип иллюстрации
+      description: Выбери тип иллюстрации
+      options:
+        - Скетч
+        - Промо-изображение
+        - Концепт-арт
+        - Иллюстрация игрового объекта
+    validations:
+      required: true
+
+  - type: textarea
+    id: about-illustration
+    attributes:
+      label: Об иллюстрации
+      description: Что планируется нарисовать, какие образы создать
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст и референсы
+      description: Отчего отталкиваться при создании иллюстрации
+    validations:
+      required: false
