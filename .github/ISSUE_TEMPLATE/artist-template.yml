@@ -5,6 +5,18 @@ type: Art
 projects: ['Phoenix-Games-Revolution/10']
 body:
   - type: dropdown
+    id: epoch-stage
+    attributes:
+      label: Этап эпохи
+      description: Выбери этап, к которому относится арт
+      options:
+        - Paleolithic
+        - Mesolithic
+        - Neolithic
+        - Chalcolithic
+        - Bronze Age
+        - Early Iron Age
+  - type: dropdown
     id: illustration-type
     attributes:
       label: Тип иллюстрации
