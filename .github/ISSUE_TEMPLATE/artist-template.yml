@@ -2,7 +2,7 @@ name: Создание графики
 description: Задача создание скетча, концепт или промо-арата и иных видов работ художника
 title: '[Art] Название иллюстрации'
 type: Art
-projects: ['Phoenix-Games-Revolution/7']
+projects: ['Phoenix-Games-Revolution/10']
 body:
   - type: dropdown
     id: illustration-type
