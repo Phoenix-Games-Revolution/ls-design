@@ -7,22 +7,22 @@ body:
   - type: dropdown
     id: plan
     attributes:
-      label: Planning
+      label: Планирование
       description: Выбери тип плана, который нужно описать
       options:
-        - Architecture
-        - Development Stages
-        - Management
-        - Marketing
-        - Business Model
-        - Content
+        - Архитектура
+        - Стадии разработки
+        - Менеджмент
+        - Маркетинг
+        - Бизнес
+        - Контент
     validations:
       required: true
 
   - type: textarea
     id: about
     attributes:
-      label: What is this task about
+      label: О чём задача
       description: Что должно быть описано
       value: |
         Опишите сферу планирования и результат, ожидаемый в ПР
