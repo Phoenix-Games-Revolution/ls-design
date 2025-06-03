@@ -1,0 +1,290 @@
+{
+  "units": {
+    "dark": {
+      "paleolithic": [
+        {
+          "id": 1,
+          "name": "Hunter"
+        },
+        {
+          "id": 2,
+          "name": "Gatherer"
+        },
+        {
+          "id": 3,
+          "name": "Fisher"
+        },
+        {
+          "id": 4,
+          "name": "Firekeeper"
+        },
+        {
+          "id": 5,
+          "name": "Shaman"
+        },
+        {
+          "id": 6,
+          "name": "Scout"
+        },
+        {
+          "id": 7,
+          "name": "Slinger"
+        }
+      ],
+      "mesolithic": [
+        {
+          "id": 8,
+          "name": "Hunter"
+        },
+        {
+          "id": 9,
+          "name": "Advanced Gatherer"
+        },
+        {
+          "id": 10,
+          "name": "Fisher"
+        },
+        {
+          "id": 11,
+          "name": "Firekeeper"
+        },
+        {
+          "id": 12,
+          "name": "Shaman"
+        },
+        {
+          "id": 13,
+          "name": "Scout"
+        },
+        {
+          "id": 14,
+          "name": "Slinger"
+        },
+        {
+          "id": 15,
+          "name": "Pack Animal Handler"
+        },
+        {
+          "id": 54,
+          "name": "Animal Tamer"
+        },
+        {
+          "id": 55,
+          "name": "War Dog"
+        }
+      ],
+      "neolithic": [
+        {
+          "id": 16,
+          "name": "Warrior"
+        },
+        {
+          "id": 17,
+          "name": "Farmer"
+        },
+        {
+          "id": 18,
+          "name": "Herder"
+        },
+        {
+          "id": 19,
+          "name": "Priest"
+        },
+        {
+          "id": 20,
+          "name": "Builder"
+        },
+        {
+          "id": 21,
+          "name": "Archer"
+        },
+        {
+          "id": 22,
+          "name": "Slinger"
+        },
+        {
+          "id": 23,
+          "name": "Scout"
+        },
+        {
+          "id": 24,
+          "name": "Craftsman"
+        },
+        {
+          "id": 56,
+          "name": "Beast Handler"
+        },
+        {
+          "id": 57,
+          "name": "Hunting Hawk"
+        }
+      ],
+      "chalcolithic": [
+        {
+          "id": 25,
+          "name": "Spearman"
+        },
+        {
+          "id": 26,
+          "name": "Archer"
+        },
+        {
+          "id": 27,
+          "name": "Slinger"
+        },
+        {
+          "id": 28,
+          "name": "Miner"
+        },
+        {
+          "id": 29,
+          "name": "Smith"
+        },
+        {
+          "id": 30,
+          "name": "Priest"
+        },
+        {
+          "id": 31,
+          "name": "Scout"
+        },
+        {
+          "id": 32,
+          "name": "Wagoner"
+        },
+        {
+          "id": 33,
+          "name": "Hunter"
+        },
+        {
+          "id": 58,
+          "name": "Animal Trainer"
+        },
+        {
+          "id": 59,
+          "name": "Pack Animal Unit"
+        },
+        {
+          "id": 60,
+          "name": "Mounted Scout"
+        }
+      ],
+      "bronze-age": [
+        {
+          "id": 34,
+          "name": "Bronze Swordsman"
+        },
+        {
+          "id": 35,
+          "name": "Archer"
+        },
+        {
+          "id": 36,
+          "name": "Chariot Archer"
+        },
+        {
+          "id": 37,
+          "name": "Spearman"
+        },
+        {
+          "id": 38,
+          "name": "Builder"
+        },
+        {
+          "id": 39,
+          "name": "Merchant"
+        },
+        {
+          "id": 40,
+          "name": "Priest"
+        },
+        {
+          "id": 41,
+          "name": "Scout"
+        },
+        {
+          "id": 42,
+          "name": "Siege Engineer"
+        },
+        {
+          "id": 43,
+          "name": "Horseman"
+        },
+        {
+          "id": 61,
+          "name": "Beastmaster"
+        },
+        {
+          "id": 62,
+          "name": "War Dog"
+        },
+        {
+          "id": 63,
+          "name": "Mounted Raider"
+        }
+      ],
+      "early-iron-age": [
+        {
+          "id": 44,
+          "name": "Iron Swordsman"
+        },
+        {
+          "id": 45,
+          "name": "Heavy Spearman"
+        },
+        {
+          "id": 46,
+          "name": "Early Crossbowman"
+        },
+        {
+          "id": 47,
+          "name": "War Chariot"
+        },
+        {
+          "id": 48,
+          "name": "Siege Ram Operator"
+        },
+        {
+          "id": 49,
+          "name": "High Priest"
+        },
+        {
+          "id": 50,
+          "name": "Engineer"
+        },
+        {
+          "id": 51,
+          "name": "Scout"
+        },
+        {
+          "id": 52,
+          "name": "Trader"
+        },
+        {
+          "id": 53,
+          "name": "War Elephant"
+        },
+        {
+          "id": 54,
+          "name": "Archer"
+        },
+        {
+          "id": 55,
+          "name": "Slinger"
+        },
+        {
+          "id": 56,
+          "name": "Horseman"
+        },
+        {
+          "id": 64,
+          "name": "War Beast Commander"
+        },
+        {
+          "id": 65,
+          "name": "Falconer"
+        }
+      ]
+    }
+  }
+}
